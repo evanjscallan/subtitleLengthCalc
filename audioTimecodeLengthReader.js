@@ -6,7 +6,7 @@ const loadFile = () => {
 	let all = fs.readFileSync('dummyText.txt', "utf8")
 	all = all.trim()
 	let lines = all.split("\n")
-	
+
 	for (let i=0; i<lines.length; i++){
 		let separator = lines.indexOf(lines[i])
 		if (lines[i].length === 1 || lines[i].length === 2 || lines[i].length === 3){ 
@@ -49,7 +49,7 @@ let finalArr = []
 for (let x=0; x<datesArr.length; x++){
 	finalArr.push(Math.abs(Math.ceil((new Date(datesArr[x + 1]))) - ((new Date(datesArr[x])))) / 1000 + " seconds")
 }
-console.log('Time Differences', finalArr.filter(e => e !== '0 seconds' && e !== 'NaN seconds'))
+console.log('Time Differences: ', finalArr.filter(e => e !== '0 seconds' && e !== 'NaN seconds'))
 
 
 //how to handle lines?
