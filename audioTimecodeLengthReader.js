@@ -1,4 +1,5 @@
 const loadFile = () => {
+	//input your chosen file instead of 'dummyText.txt'
 	let all = fs.readFileSync('dummyText.txt', "utf8")
 	all = all.trim()
 	let lines = all.split("\n")
@@ -8,11 +9,8 @@ const loadFile = () => {
 			numArr.push(lines[i])
 		}
 	}
-
 	let n = lines.length;
-
 	return numArr
-	
 }
 
 const grabArr = loadFile()
@@ -48,17 +46,3 @@ for (let x=0; x<datesArr.length; x++){
 	finalArr.push(Math.abs(Math.ceil((new Date(datesArr[x + 1]))) - ((new Date(datesArr[x])))) / 1000 + " seconds")
 }
 console.log('Time Differences', finalArr.filter(e => e !== '0 seconds' && e !== 'NaN seconds'))
-
-
-
-
-
-
-
-
-
-
-/*console.log(datesArr.reduce((a, b) => {
-	Math.abs(b) + Math.abs(a)
-}))*/
-//error happens between the 1 and 2 minute marker
