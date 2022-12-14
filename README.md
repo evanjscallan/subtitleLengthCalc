@@ -12,9 +12,9 @@ Language: Javascript
 This project has no affiliation with Revolvdiv.
 
 
---HOW TO USE--
+**--HOW TO USE--**
 
-1.) PREPARE YOUR FILE
+1.)**PREPARE YOUR FILE**
 
 	a.)Prepare a .srt (SubRip) file. A good resource for audio transcription with .srt exporting can be found at Revoldiv.com.
 
@@ -29,7 +29,7 @@ This project has no affiliation with Revolvdiv.
 
 	c.)Insert the duplicate file into the same folder as 'audioTimecodeLengthReader.js'
 
-2.) ACQUIRE YOUR AUDIO TIMECODE LENGTH(S)
+2.) **ACQUIRE YOUR AUDIO TIMECODE LENGTH(S)**
 
 	a.) In 'audioTimecodeLengthReader.js', replace 'dummyText.txt' with your file name.
 
@@ -51,9 +51,9 @@ Time Differences: [
 ]
 
 
---WHAT'S HAPPENING?--
+**--WHAT'S HAPPENING?--**
 
-.srt files traditionally produce segments of audio transcriptions in the following format:
+**.srt files traditionally produce segments of audio transcriptions in the following f**ormat:
 
 1
 
@@ -65,6 +65,6 @@ tristique est mattis sit amet. Sed nisi velit, eleifend ac molestie eget, semper
 augue. Cras aliquet mi lacus, eget varius leo tempor eu. Integer eget suscipit ipsum,
 nec ullamcorper lacus. Nullam pharetra mi sem, et facilisis lorem finibus sit amet. 
 
---FINAL NOTES--
+**--FINAL NOTES--**
 
 The project is in an early phase with expected updates to make the program more user-friendly with features such as file conversions and flexible transcription line choices. If you would like to contribute, please feel free to reach out to EvanJScallan@gmail.com for more information. Happy transcribing!
