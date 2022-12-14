@@ -1,12 +1,16 @@
+let fs = require('fs')
+let numArr = []
+
 const loadFile = () => {
 	//input your chosen file instead of 'dummyText.txt'
 	let all = fs.readFileSync('dummyText.txt', "utf8")
 	all = all.trim()
 	let lines = all.split("\n")
+	
 	for (let i=0; i<lines.length; i++){
 		let separator = lines.indexOf(lines[i])
-		if ((separator - 1) % 9 == 0){
-			numArr.push(lines[i])
+		if (lines[i].length === 1 || lines[i].length === 2 || lines[i].length === 3){ 
+			numArr.push(lines[i + 1])
 		}
 	}
 	let n = lines.length;
@@ -46,3 +50,7 @@ for (let x=0; x<datesArr.length; x++){
 	finalArr.push(Math.abs(Math.ceil((new Date(datesArr[x + 1]))) - ((new Date(datesArr[x])))) / 1000 + " seconds")
 }
 console.log('Time Differences', finalArr.filter(e => e !== '0 seconds' && e !== 'NaN seconds'))
+
+
+//how to handle lines?
+//idea 1: use the singular digit strings as markers, str.length === 1; use the index immediately after those
