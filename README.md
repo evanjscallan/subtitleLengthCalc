@@ -7,7 +7,7 @@
 
 **License:** MIT
 
-**Language: **Javascript
+**Language:** Javascript
 
 **This project has no affiliation with Revolvdiv.**
 
