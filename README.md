@@ -1,15 +1,15 @@
 # subtitleLengthCalc
 
 
-By Evan Scallan
+**By Evan Scallan**
 
-Origin Date: December 14, 2022
+**Origin Date**: December 14, 2022
 
-License: MIT
+**License:** MIT
 
-Language: Javascript
+**Language: **Javascript
 
-This project has no affiliation with Revolvdiv.
+**This project has no affiliation with Revolvdiv.**
 
 
 **--HOW TO USE--**
