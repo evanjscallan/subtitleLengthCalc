@@ -53,7 +53,7 @@ Time Differences: [
 
 **--WHAT'S HAPPENING?--**
 
-**.srt files traditionally produce segments of audio transcriptions in the following f**ormat:
+**.srt files traditionally produce segments of audio transcriptions in the following format:**
 
 1
 
