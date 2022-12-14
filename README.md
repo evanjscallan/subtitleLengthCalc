@@ -56,7 +56,9 @@ Time Differences: [
 .srt files traditionally produce segments of audio transcriptions in the following format:
 
 1
+
 00:00:00,00 --> 00:00:21,747
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dapibus augue quis 
 diam egestas aliquet. Curabitur volutpat malesuada ipsum, nec fringilla magna mollis 
 ornare. Aliquam luctus condimentum nunc vel sagittis. Morbi varius quam nisl, ac 
