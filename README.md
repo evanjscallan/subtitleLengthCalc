@@ -95,11 +95,5 @@ augue. Cras aliquet mi lacus, eget varius leo tempor eu. Integer eget suscipit i
 nec ullamcorper lacus. Nullam pharetra mi sem, et facilisis lorem finibus sit amet. 
 
 
-
-
-
-
-
-
-1.) Open 'audioTimecodeLengthReader.js'
-2.) 
+--FINAL NOTES--
+The project is in an early phase with expected updates to make the program more user-friendly with features such as file conversions and flexible transcription line choices. If you would like to contribute, please feel free to reach out to EvanJScallan@gmail.com for more information. Happy transcribing!
